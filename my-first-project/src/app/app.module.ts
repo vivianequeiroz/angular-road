@@ -4,13 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MyFirstComponent } from './my-first/my-first.component';
 
+import { CoursesModule } from './courses/courses.module';
+
+
 @NgModule({
-  declarations: [
+  declarations: [ // declare of all the components, directives and pipes of the project
     AppComponent,
     MyFirstComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CoursesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
