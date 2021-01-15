@@ -24,3 +24,12 @@ var n1 = 'queiroz'
 // var n1 = 4 not acceptable since the data type was defined when variable was declared
 
 // POO!
+
+
+
+
+
+
+
+// Decorators are a special declaration to add extra functions to a class, a method, property, parameter or accessor
+// They are only functions called in the runtime 
