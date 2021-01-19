@@ -1,11 +1,9 @@
 <p>
-    Lista de cursos do portal {{ nomePortal }}
+    Lista de cursos do portal {{ portalName }}
 </p>
 
-<app-courses-detail></app-courses-detail>
-
 <ul>
-    <li *ngFor="let curso of cursos"> <!-- directive that makes an looping in the arrat declared at the component -->
-        {{ curso }}
+    <li *ngFor="let course of courses"> <!-- directive that makes an looping in the arrat declared at the component -->
+        {{ course }}
     </li>
 </ul>
