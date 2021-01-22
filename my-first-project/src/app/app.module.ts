@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { MyFirstComponent } from './my-first/my-first.component';
 
 import { CoursesModule } from './courses/courses.module';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 
 @NgModule({
   declarations: [ // declare of all the components, directives and pipes of the project
     AppComponent,
-    MyFirstComponent
+    MyFirstComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
